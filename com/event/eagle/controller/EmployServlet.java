@@ -120,12 +120,14 @@ public class EmployServlet extends HttpServlet {
 			UserDaoImpl user_dataDaoImpl = new UserDaoImpl();
 			User user_data = user_dataDaoImpl.read(Integer.parseInt(id));
 			user_dataDaoImpl.delete(user_data);
-//			if (user_data != null) {
-//				user_data.setActive(0);
-//				user_dataDaoImpl.update(user_data);
-//			} else {
-//				request.setAttribute("message", "Invalid employee id");
-//			}
+			/*
+			if (user_data != null) {
+				user_data.setActive(0);
+				user_dataDaoImpl.update(user_data);
+			} else {
+				request.setAttribute("message", "Invalid employee id");
+			}
+			*/
 			request.setAttribute("message", "Employee deleted successfully");
 
 
