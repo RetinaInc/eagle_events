@@ -1,0 +1,18 @@
+.feature{
+    text-align: center;
+}
+
+.feature .btn{
+    
+    margin-top: 20px;
+}
+
+.feature .fa-stack-1x{
+    
+    color: white;
+}
+
+.main_container .left_col{
+    
+    position: fixed;
+}
